@@ -1,0 +1,26 @@
+.chat--item{
+    display: flex;
+    padding: 10px 20px;
+    border-top: 1px solid #CCCCCC;
+    gap: 15px;
+    align-items: center;
+}
+
+.chat--item:hover{
+    background-color: rgb(160, 199, 247);
+}
+
+.chat--item img{
+    border-radius: 50%;
+    border: 2px solid rgb(9, 113, 241);
+}
+
+.chat--item__right > div:first-child{
+    font-weight: 900;
+}
+
+.chat--item__right > div:last-child{
+    padding-top:  5px;
+    font-style: italic;
+    font-size: 12px;
+}

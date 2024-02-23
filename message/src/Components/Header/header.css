@@ -1,0 +1,13 @@
+.header{
+    background-color: rgb(9, 113, 241);
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header > div{
+    padding-left: 20px;
+    font-size: 24px;
+    color: #FFFFFF;
+}
