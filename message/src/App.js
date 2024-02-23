@@ -1,16 +1,13 @@
-
-import { Home } from './Components/ChatList/Home';
-// import { Checking } from './Components/Checking';
-import './Style.css';
+import React from "react";
+import "./Style.css";
+import { Home } from "./Components/ChatList/Home";
 
 function App() {
-  return (<div>
-     <Home/>
-     {/* <Checking/>
-     <h1>Calling Header tag</h1> */}
+  return (
+    <div>
+      <Home />
     </div>
   );
 }
 
 export default App;
-

@@ -5,10 +5,15 @@ import { ChartListWrapper } from "../ChartListWrapper";
 import { Device } from "../Device/device";
 
 const Home = () => {
-  <Device>
-    <Header />
-    <ChartListWrapper />
-  </Device>;
+  return (
+    <>
+      <Device>
+        <Header />
+        <ChartListWrapper />
+      </Device>
+      ;
+    </>
+  );
 };
 
 export { Home };
